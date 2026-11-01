@@ -1,0 +1,12 @@
+/* Variante D · Geist Serif solo en los titulares grandes (portada, h1, h2) y Figtree en lo demás.
+   Geist Serif (OFL, autoalojada, un solo peso) y Figtree (OFL, autoalojada, variable). Solo con ?letra=d. Se probó Switzer para el texto: se ve casi igual y pesa 74 KB desde un CDN de terceros; Figtree, 20 KB propios. */
+@font-face { font-family: 'Figtree'; src: url('/fuentes/figtree.woff2') format('woff2'); font-weight: 300 900; font-display: swap; }
+@font-face { font-family: 'Geist Serif'; src: url('/fuentes/geist-serif.woff2') format('woff2'); font-weight: 400; font-display: swap; }
+html[data-letra="d"] { --f-titulo: 'Figtree', ui-sans-serif, system-ui, sans-serif; --f-texto: 'Figtree', ui-sans-serif, system-ui, sans-serif; --f-display: 'Geist Serif', ui-serif, Georgia, serif; }
+html[data-letra="d"] body { font-size: 1.03rem; letter-spacing: -.003em; }
+html[data-letra="d"] .titulo-portada { font-weight: 400; letter-spacing: -.025em; line-height: .98; }
+html[data-letra="d"] .h1 { font-weight: 400; letter-spacing: -.02em; line-height: 1.04; }
+html[data-letra="d"] .h2 { font-weight: 400; letter-spacing: -.015em; line-height: 1.06; }
+html[data-letra="d"] .h3, html[data-letra="d"] .tarjeta-t, html[data-letra="d"] .empieza-t { font-weight: 650; letter-spacing: -.02em; }
+html[data-letra="d"] .cap, html[data-letra="d"] .chip { letter-spacing: -.005em; }
+html[data-letra="d"] .lead, html[data-letra="d"] .portada-bajada { letter-spacing: -.008em; line-height: 1.45; }

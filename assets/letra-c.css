@@ -1,0 +1,10 @@
+/* Variante C · Figtree en titulares y texto (OFL, autoalojada). Solo con ?letra=c. */
+@font-face { font-family: 'Figtree'; src: url('/fuentes/figtree.woff2') format('woff2'); font-weight: 300 900; font-display: swap; }
+html[data-letra="c"] { --f-titulo: 'Figtree', ui-sans-serif, system-ui, sans-serif; --f-texto: 'Figtree', ui-sans-serif, system-ui, sans-serif; --f-display: var(--f-titulo); }
+html[data-letra="c"] body { font-size: 1.03rem; line-height: 1.5; letter-spacing: 0; }
+html[data-letra="c"] .titulo-portada { font-weight: 650; letter-spacing: -.035em; word-spacing: .04em; line-height: .94; }
+html[data-letra="c"] .h1 { font-weight: 650; letter-spacing: -.03em; word-spacing: .03em; line-height: 1.02; }
+html[data-letra="c"] .h2 { font-weight: 650; letter-spacing: -.025em; word-spacing: .03em; line-height: 1.04; }
+html[data-letra="c"] .h3, html[data-letra="c"] .tarjeta-t, html[data-letra="c"] .empieza-t { font-weight: 650; letter-spacing: -.012em; }
+html[data-letra="c"] .cap, html[data-letra="c"] .chip { font-weight: 600; letter-spacing: 0; }
+html[data-letra="c"] .lead, html[data-letra="c"] .portada-bajada { line-height: 1.45; }

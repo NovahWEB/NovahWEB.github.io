@@ -1,0 +1,9 @@
+/* Variante B · Switzer en titulares y texto (Fontshare, se sirve desde su CDN por licencia). Solo con ?letra=b. */
+html[data-letra="b"] { --f-titulo: 'Switzer', ui-sans-serif, system-ui, sans-serif; --f-texto: 'Switzer', ui-sans-serif, system-ui, sans-serif; --f-display: var(--f-titulo); }
+html[data-letra="b"] body { font-size: 1.03rem; letter-spacing: 0; word-spacing: .03em; }
+html[data-letra="b"] .titulo-portada { font-weight: 600; letter-spacing: -.032em; word-spacing: .06em; line-height: .93; }
+html[data-letra="b"] .h1 { font-weight: 600; letter-spacing: -.028em; word-spacing: .05em; line-height: 1.01; }
+html[data-letra="b"] .h2 { font-weight: 600; letter-spacing: -.024em; word-spacing: .05em; line-height: 1.04; }
+html[data-letra="b"] .h3, html[data-letra="b"] .tarjeta-t, html[data-letra="b"] .empieza-t { letter-spacing: -.012em; word-spacing: .03em; }
+html[data-letra="b"] .cap, html[data-letra="b"] .chip { letter-spacing: -.005em; }
+html[data-letra="b"] .lead, html[data-letra="b"] .portada-bajada { letter-spacing: 0; line-height: 1.45; }

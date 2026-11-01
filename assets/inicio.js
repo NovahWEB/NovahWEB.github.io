@@ -202,7 +202,7 @@
       }
     }
     // tres nombres, como en un mapa
-    c.font = `500 ${movil ? 11 : 12}px Inter, system-ui, sans-serif`; c.fillStyle = oscuro ? 'rgba(209,213,219,.62)' : 'rgba(31,41,55,.82)';
+    c.font = `500 ${movil ? 11 : 12}px ${getComputedStyle(document.body).fontFamily}`; c.fillStyle = oscuro ? 'rgba(209,213,219,.62)' : 'rgba(31,41,55,.82)';
     for (const [nombre, lon, lat] of [['Ciudad de Panamá', -79.52, 8.98], ['San José', -84.08, 9.93], ['David', -82.43, 8.43]]) {
       const mx = (lon + 86.4) * Math.cos(9 * Math.PI / 180) * 100, my = (11.6 - lat) * 100;
       const [x, y] = p(mx, my);
